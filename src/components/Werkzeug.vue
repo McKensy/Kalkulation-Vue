@@ -120,7 +120,7 @@
         </router-link>
       </div>
       <div class="fixed-action-btn goleft">
-        <router-link to="/material">
+        <router-link to="/oberflaeche">
           <button class="btn right btnnext">
             <i class="material-icons left">arrow_back_ios</i>
             Zurück
