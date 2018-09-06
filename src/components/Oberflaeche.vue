@@ -103,7 +103,15 @@
             <i class="material-icons right">arrow_forward_ios</i>
           </button>
       </div>
-      <div class="fixed-action-btn goleft" v-on:click="goBack()">
+      <div class="fixed-action-btn">
+        <router-link to="/werkzeug">
+          <button class="btn right btnnext">Weiter
+            <i class="material-icons right">arrow_forward_ios</i>
+          </button>
+        </router-link>
+      </div>
+      <div class="fixed-action-btn goleft">
+        <router-link to="/material">
           <button class="btn right btnnext">
             <i class="material-icons left">arrow_back_ios</i>
             Zurück
