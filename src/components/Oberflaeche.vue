@@ -105,6 +105,13 @@
           </button>
         </router-link>
       </div>
+      <div class="fixed-action-btn">
+        <router-link to="/werkzeug">
+          <button class="btn right btnnext">Weiter
+            <i class="material-icons right">arrow_forward_ios</i>
+          </button>
+        </router-link>
+      </div>
       <div class="fixed-action-btn goleft">
         <router-link to="/material">
           <button class="btn right btnnext">
